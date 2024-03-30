@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+		<link rel="stylesheet" href="/assets/boutons/css/ionicons.min.css">
+		<link rel="stylesheet" href="/assets/boutons/css/style.css">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="/assets/AdminDigital/assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Login form responsive</title>  
+    </head>
+    <body>
+        <div class="l-form">
+            <div class="shape1"></div>
+            <div class="shape2"></div>
+        <div style="margin-left: 1210px;margin-top:10px;" >
+            <button type="button" class="btn btn-outline-dark rounded-pill px-4 py-2" routerLink="/accueil">
+                <i class="fas fa-home"></i> Accueil
+            </button>
+        </div>
+ <!--######################################################################################-->
+<div class="form">
+  <img src="/assets/AdminDigital/assets/img/authentication2.svg" alt="" class="form__img">
+    <div class="col-md-10" style="margin-left: -100px;margin-top: -50px;">
+        <div class="card">
+          <div class="card-body" >
+                <form  class="form__content"  >
+                    <h1 class="form__title">Bienvenue</h1>
+
+                    <div class="form__div form__div-one">
+                        <div class="form__icon">
+                            <i class='bx bx-user-circle'></i>
+                        </div>
+
+                        <div class="form__div-input">
+                            <label for="" class="form__label">Nom d'utilisateur</label>
+                            <input type="text" class="form__input"  ngModel name="username" required>
+                        </div>
+                    </div>
+
+                    <div class="form__div">
+                        <div class="form__icon">
+                            <i class='bx bx-lock' ></i>
+                        </div>
+
+                        <div class="form__div-input">
+                            <label for="" class="form__label">Mot de passe</label>
+                            <input type="password" class="form__input"  ngModel name="password" required >
+                        </div>
+                    </div>
+                    <a href="#" class="form__forgot">Mot de passe oublié ?</a>
+
+                    <input type="submit" style=" color: #FFFF; background-color:#1A76D1;"  class="form__button" value="Connexion">
+                </form>
+          </div>
+        </div>
+    </div>
+            </div>
+
+        </div>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="/assets/AdminDigital/assets/js/main.js"></script>
+
+        <script src="/assets/boutons/js/jquery.min.js"></script>
+        <script src="/assets/boutons/js/popper.js"></script>
+        <script src="/assets/boutons/js/bootstrap.min.js"></script>
+        <script src="/assets/boutons/js/main.js"></script>
+    </body>
+</html>
